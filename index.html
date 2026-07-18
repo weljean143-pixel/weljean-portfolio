@@ -3,177 +3,561 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Weljean Formentera | Customer Service Specialist</title>
+
+<title>Weljean Formentera | Customer Service Professional</title>
 
 <style>
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f5f9ff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f8ff;
     color: #333;
 }
 
+/* HEADER */
+
 header {
-    background: #0b5ed7;
+    background: linear-gradient(135deg, #005bea, #00c6fb);
     color: white;
-    text-align: center;
-    padding: 50px 20px;
+    padding: 70px 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 38px;
+.hero {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-header p {
-    font-size: 18px;
+.profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005bea;
+    font-size: 55px;
+    font-weight: bold;
 }
+
+.hero-text {
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.buttons a {
+    display: inline-block;
+    margin: 10px 8px 0 0;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary {
+    background: white;
+    color: #005bea;
+}
+
+.secondary {
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* GENERAL SECTIONS */
 
 section {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
-    padding: 30px 20px;
+    padding: 45px 20px;
 }
 
-h2 {
-    color: #0b5ed7;
-    border-bottom: 2px solid #0b5ed7;
-    padding-bottom: 5px;
+.title {
+    text-align: center;
+    color: #005bea;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
+
+
+/* CARDS */
 
 .card {
     background: white;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
+
+
+.card h3 {
+    color: #005bea;
+    margin-bottom: 5px;
+}
+
+
+.card span {
+    color: #777;
+    font-weight: bold;
+}
+
 
 ul {
     line-height: 1.8;
 }
 
-.contact {
-    background: #0b5ed7;
-    color: white;
-    text-align: center;
-    padding: 25px;
+
+/* SKILLS */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
 }
 
-.button {
-    display: inline-block;
-    background: white;
-    color: #0b5ed7;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 10px;
+
+.skill-box {
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
+
+
+.skill-box h3 {
+    color:#005bea;
+}
+
+
+/* EXPERIENCE TIMELINE */
+
+.timeline {
+    border-left:4px solid #005bea;
+    padding-left:25px;
+}
+
+
+.job {
+    margin-bottom:35px;
+    position:relative;
+}
+
+
+.job:before {
+    content:"";
+    width:15px;
+    height:15px;
+    background:#005bea;
+    border-radius:50%;
+    position:absolute;
+    left:-35px;
+    top:5px;
+}
+
+
+/* CONTACT */
+
+.contact {
+    background:#005bea;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+
+.contact a {
+    color:white;
+    text-decoration:none;
+}
+
+
+footer {
+    text-align:center;
+    padding:20px;
+    background:#003b8f;
+    color:white;
+}
+
+
 </style>
 
 </head>
 
 <body>
 
+
 <header>
+
+<div class="hero">
+
+<div class="profile">
+WF
+</div>
+
+
+<div class="hero-text">
+
 <h1>Weljean Formentera</h1>
-<p>Customer Service Specialist | Email & Chat Support | Order Tracking</p>
-</header>
+
+<h2>
+Customer Service Representative | Appointment Setter |
+Order Management Specialist | Email Support Specialist
+</h2>
 
 
-<section>
-<h2>About Me</h2>
-<div class="card">
 <p>
-I am a customer service professional with experience in e-commerce support,
-order tracking, shipment monitoring, and customer communication.
-I specialize in providing accurate updates, resolving concerns, and creating
-positive customer experiences through professional and timely support.
+Customer service professional with experience supporting
+e-commerce, telecommunications, insurance, and business operations.
+Skilled in email, chat, and phone support, order management,
+technical troubleshooting, appointment scheduling, and customer
+relationship management.
 </p>
-</div>
-</section>
 
 
-<section>
-<h2>Skills</h2>
-<div class="card">
-<ul>
-<li>Order Tracking & Shipment Monitoring</li>
-<li>Email and Chat Customer Support</li>
-<li>Order Management</li>
-<li>Returns and Refund Assistance</li>
-<li>Customer Issue Resolution</li>
-<li>CRM Systems</li>
-<li>Communication & Problem Solving</li>
-<li>Time Management</li>
-</ul>
-</div>
-</section>
+<div class="buttons">
 
-
-<section>
-<h2>Work Experience</h2>
-
-<div class="card">
-<h3>Customer Support Specialist - VIVAIA</h3>
-<p><b>2025 - 2026</b></p>
-
-<ul>
-<li>Handled customer inquiries regarding orders, shipping, returns, and products.</li>
-<li>Tracked customer shipments and provided accurate delivery updates.</li>
-<li>Assisted with delayed deliveries, missing packages, and order concerns.</li>
-<li>Coordinated with internal teams to resolve customer issues.</li>
-<li>Maintained professional communication through email support.</li>
-</ul>
-</div>
-
-
-<div class="card">
-<h3>Freelance Email & Chat Support - SPLACE BPO</h3>
-<p><b>2022 - 2025</b></p>
-<ul>
-<li>Managed customer communications and administrative tasks.</li>
-<li>Provided email support and appointment scheduling assistance.</li>
-</ul>
-</div>
-
-
-<div class="card">
-<h3>Technical Support / Customer Service Representative - VXI Global Holdings</h3>
-<p><b>2021 - 2022</b></p>
-<ul>
-<li>Resolved customer billing and technical concerns.</li>
-<li>Provided product and service support.</li>
-</ul>
-</div>
-
-</section>
-
-
-<section>
-<h2>Education</h2>
-
-<div class="card">
-<p>
-Bachelor of Secondary Education - Major in Science<br>
-University of Mindanao
-</p>
-</div>
-
-</section>
-
-
-<div class="contact">
-<h2>Contact</h2>
-<p>Email: weljean143@gmail.com</p>
-<p>Phone: +63 976 259 5099</p>
-
-<a class="button" href="mailto:weljean143@gmail.com">
+<a class="primary" href="#contact">
 Contact Me
+</a>
+
+<a class="secondary" href="#">
+LinkedIn
 </a>
 
 </div>
 
+</div>
+
+</div>
+
+</header>
+
+
+
+<section>
+
+<h2 class="title">
+About Me
+</h2>
+
+
+<div class="card">
+
+<p>
+I am a dedicated customer service professional with experience in
+different industries including e-commerce, telecommunications,
+insurance, and remote business support.
+</p>
+
+
+<p>
+My expertise includes managing customer concerns, tracking orders,
+resolving technical issues, coordinating schedules, and providing
+professional assistance through phone, email, and chat channels.
+</p>
+
+
+<p>
+I enjoy helping customers find solutions while maintaining clear
+communication, accuracy, and a positive customer experience.
+</p>
+
+</div>
+
+</section><section>
+
+<h2 class="title">
+Professional Skills
+</h2>
+
+<div class="skills">
+
+<div class="skill-box">
+<h3>Customer Support</h3>
+<p>Email Support<br>Chat Support<br>Phone Support<br>Customer Communication</p>
+</div>
+
+<div class="skill-box">
+<h3>Order Management</h3>
+<p>Order Tracking<br>Shipment Monitoring<br>Returns Assistance<br>Delivery Follow-up</p>
+</div>
+
+<div class="skill-box">
+<h3>Technical Support</h3>
+<p>Internet Troubleshooting<br>TV & Phone Services<br>Billing Assistance<br>Problem Resolution</p>
+</div>
+
+<div class="skill-box">
+<h3>Operations</h3>
+<p>Schedule Coordination<br>Administrative Support<br>CRM Management<br>Remote Work</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2 class="title">
+Professional Experience
+</h2>
+
+
+<div class="timeline">
+
+
+<div class="job">
+
+<div class="card">
+
+<h3>Customer Support Specialist — VIVAIA</h3>
+
+<span>2025 – 2026 | E-commerce Support | Order Management | Shipment Tracking</span>
+
+
+<ul>
+
+<li>Managed customer inquiries related to orders, shipping, returns, exchanges, and product concerns through email support.</li>
+
+<li>Tracked customer orders and provided accurate updates regarding shipment status and delivery progress.</li>
+
+<li>Assisted customers with delayed deliveries, missing packages, and order-related concerns.</li>
+
+<li>Coordinated with internal teams to investigate and resolve fulfillment issues.</li>
+
+<li>Maintained professional communication to ensure customer satisfaction and a smooth customer experience.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div class="job">
+
+<div class="card">
+
+<h3>Schedule Coordinator — SPLACE BPO</h3>
+
+<span>2022 – 2025 | Customer Support | Administrative Operations</span>
+
+
+<ul>
+
+<li>Managed customer conversations through phone, email, and chat channels.</li>
+
+<li>Handled inbound and outbound communication while providing timely assistance.</li>
+
+<li>Coordinated schedules, appointments, and administrative tasks to support business operations.</li>
+
+<li>Maintained organized client records and accurate customer information.</li>
+
+<li>Adapted quickly to different client needs, workflows, and service requirements.</li>
+
+</ul>
+
+
+</div>
+
+</div>
+
+
+
+
+<div class="job">
+
+<div class="card">
+
+<h3>Technical Support / Customer Service Representative — VXI Global Holdings B.V.</h3>
+
+<span>2021 – 2022 | Technical Support | Billing Assistance | Sales Support</span>
+
+
+<ul>
+
+<li>Assisted customers with technical concerns, billing inquiries, and service-related issues.</li>
+
+<li>Troubleshot internet, television, and phone service concerns by providing step-by-step solutions.</li>
+
+<li>Identified customer issues and guided users toward effective resolutions.</li>
+
+<li>Recommended appropriate products and services based on customer needs.</li>
+
+<li>Supported mobile phone and mobile line sales by providing product information and assistance.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+
+<div class="job">
+
+<div class="card">
+
+<h3>Appointment Setter — Southside E-Services</h3>
+
+<span>2020 – 2021 | Outbound Calling | Insurance Support</span>
+
+
+<ul>
+
+<li>Scheduled insurance consultations through inbound and outbound calls.</li>
+
+<li>Supported Auto, Health, Life Insurance, and Medicare campaigns.</li>
+
+<li>Communicated with prospects to understand their needs and schedule appointments.</li>
+
+<li>Maintained accurate customer information and appointment records.</li>
+
+<li>Developed strong communication skills through high-volume customer interactions.</li>
+
+</ul>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2 class="title">
+Education
+</h2>
+
+
+<div class="card">
+
+<h3>Bachelor of Secondary Education — Major in Science</h3>
+
+<p>
+University of Mindanao
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section>
+
+<h2 class="title">
+Why Work With Me?
+</h2>
+
+
+<div class="card">
+
+<ul>
+
+<li>Experienced in supporting customers across different industries.</li>
+
+<li>Strong written and verbal communication skills.</li>
+
+<li>Detail-oriented with order tracking and customer follow-up.</li>
+
+<li>Comfortable handling high-volume customer interactions.</li>
+
+<li>Adaptable to new tools, processes, and client requirements.</li>
+
+<li>Committed to providing reliable and professional customer support.</li>
+
+</ul>
+
+
+</div>
+
+</section>
+
+
+
+
+<div class="contact" id="contact">
+
+<h2>
+Let's Connect
+</h2>
+
+
+<p>
+Email:
+<a href="mailto:weljean143@gmail.com">
+weljean143@gmail.com
+</a>
+</p>
+
+
+<p>
+Phone: +63 976 259 5099
+</p>
+
+
+<p>
+Available for Customer Service, Virtual Assistant,
+and Remote Support opportunities.
+</p>
+
+
+</div>
+
+
+
+<footer>
+
+<p>
+© 2026 Weljean Formentera | Customer Service Professional
+</p>
+
+</footer>
+
 
 </body>
+
 </html>
